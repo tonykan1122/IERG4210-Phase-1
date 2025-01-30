@@ -1,0 +1,84 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Harden Clothing</title>
+
+</head>
+<body>
+    <a name="top"></a>
+    <header class="header">
+        <div class="logo"><img src="images/logo.jpg" alt="logo" width="56" height="43"></div>
+        <div class="brand-title">Harden Clothing</div>
+
+        <div class="header-links">
+            <ul>
+                <li><a href="index.html">Home <i class="fa"> &#xf015;</i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="shoppingList-Icon">
+        <div class="cart-display">
+            Shopping List <i class="fas fa-cart-plus"></i><span>0</span>
+        </div>
+    </div>
+
+    <div class="carts-container">
+        <div class="cart-header">
+            <h5 class="cart-delete"></h5>
+            <h5 class="cart-title">Product</h5>
+            <h5 class="cart-name">Name</h5>
+            <h5 class="price">Price</h5>
+            <h5 class="quantity">Quantity</h5>
+            <h5 class="total">Total</h5>
+        </div>
+        <div class="carts">
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <!-- Category -->
+        <section class="category">
+            <div class="category-title">
+                <h4>Category:</h4>
+            </div>
+            <div class="category-links">
+                <ul>
+                    <li><a href="index.html?category=T-shirt&action=menu">T-shirt</a></li>
+                    <li><a href="index.html?category=Hoodie&action=menu">Hoodie</a></li>
+                    <li><a href="index.html?category=Jacket&action=menu">Jacket</a></li>
+                </ul>         
+            </div>
+        </section>
+
+    <!-- Products -->
+        <section class="products">
+            <nav id="home">
+                <a href="#" onclick="updateMenu('Home')">Home</a>
+            </nav>
+            <div class="section-title">
+                <h2>Our Products</h2>
+            </div>
+
+            <div class="product-detail">
+                <!-- Product items -->
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <a href="#top" id="back-to-top"><img src="images/backToTop.svg"></a>
+
+    <footer class="footer-product">
+        <p>&copy;All rights reserved.</p>
+    </footer>
+</body>
+</html>
